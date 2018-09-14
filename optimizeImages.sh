@@ -24,6 +24,7 @@ usage() {
     echo -e "Example: optimizeImages.sh -v -o ./out *.jpg"
     echo -e ""
     echo -e "Options:"
+    echo -e "	-v verbose"
     echo -e "	-q Quality 0..100 (default=${quality})"
     echo -e "	-o Output dir (default=${outDir})"
     echo -e "	-p Postfix output filename (default='${postfix}')"

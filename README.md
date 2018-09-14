@@ -20,6 +20,7 @@ Usage: optimizeImages.sh [options] [files]
 Example: optimizeImages.sh -v -o ./out *.jpg
 
 Options:
+        -v verbose
         -q Quality 0..100 (default=90)
         -o Output dir (default=./out)
         -p Postfix output filename (default='')
