@@ -16,7 +16,7 @@ The `cjpeg` and the `djpeg` available globally:
 ```bash
 $ optimizeImages.sh
 
-Usage: optimizeImages.sh [options] [files]
+Usage: optimizeImages.sh [options] files
 Example: optimizeImages.sh -v -o ./out *.jpg
 
 Options:

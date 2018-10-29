@@ -20,7 +20,7 @@ command -v $cj >/dev/null 2>&1 || { echo >&2 "The cjpeg is not installed."; exit
 
 usage() {
     echo -e ""
-    echo -e "Usage: optimizeImages.sh [options] [files]"
+    echo -e "Usage: optimizeImages.sh [options] files"
     echo -e "Example: optimizeImages.sh -v -o ./out *.jpg"
     echo -e ""
     echo -e "Options:"
